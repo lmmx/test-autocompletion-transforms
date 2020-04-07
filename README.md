@@ -5,3 +5,5 @@
   - stripping off the file extension,
   - removing alphabetic characters from alphanumeric directory names,
   - (generally anything done to filenames that shorten or summarise for ease of CLI entry)
+
+Working demo! All the program will do is print the list that it then autocompletes for the (only) argument
