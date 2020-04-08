@@ -36,7 +36,7 @@ def list_log_file_transforms():
     return file_prompts
 
 if __name__ == '__main__':
-  parser = ArgumentParser()
+  parser = ArgumentParser(add_help=False)
   file_list=list_log_file_transforms()
   print(file_list)
   parser.add_argument('source_file', metavar='INPUT', choices=file_list)
